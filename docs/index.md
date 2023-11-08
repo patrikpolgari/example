@@ -8,6 +8,12 @@ hide:
 <!--/* background-size and position to make image cover full page and don't stretch when changing the browser's window size */-->
 <style>
 body {
+  background-color:grey
+}
+</style>
+
+<!--/*<style>
+body {
   background-image: url('../assets/images/brain.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -16,11 +22,7 @@ body {
 }
 </style>
 
-<style>
-body {
-  background-color:aquamarine
-}
-</style>
+
 <!--/* Or background color instead: 
 <body style="background-color:aquamarine;"></body> */-->
 
