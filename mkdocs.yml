@@ -1,0 +1,61 @@
+site_name: Patrik
+copyright: <a href="https://choosealicense.com/licenses/mit/">License</a>
+  &copy; 2023 Patrik Polgári<br>     
+theme:                  ##under theme goes everything design related
+    name: material
+    #custom_dir: overrides
+    language: en
+    palette:
+      primary: teal 
+      accent: amber
+    font: 
+      text: Montserrat
+    logo: assets/images/brain.png
+    features:
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.top
+      - navigation.sections   
+      - navigation.expand
+      - toc.integrate  
+nav:
+  - Home: index.md
+  - About  me: about_me.md
+  - Publications: publications.md
+  - CV: my_cv.md
+  - Contact: contact.md
+docs_dir: docs
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/your-account
+    - icon: material/email
+      link: mailto:patrik.polgari@uni-marburg.de
+
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - codehilite
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
